@@ -1,0 +1,55 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.marsDataTableLoader{
+    order: 2;
+    width: 100%;
+    
+}
+
+.container{
+    display: block;
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .DetailListContainer{
+        width: 100%;
+        overflow: hidden;
+        max-height: 400px;
+        min-height: 250px;
+
+        &:hover{
+            overflow: auto;
+        }
+    }
+    
+    .root{
+        position: relative;
+    }
+
+    .layoutPositioningContainer{
+        position: relative;
+    }
+
+    .layoutSwitcherContainer{
+        opacity: 1;
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transition: opacity .167s cubic-bezier(0.1, 0.25, 0.75, 0.9),-webkit-transform .167s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+        transition: opacity .167s cubic-bezier(0.1, 0.25, 0.75, 0.9),-webkit-transform .167s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+        transition: opacity .167s cubic-bezier(0.1, 0.25, 0.75, 0.9),transform .167s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+        transition: opacity .167s cubic-bezier(0.1, 0.25, 0.75, 0.9),transform .167s cubic-bezier(0.1, 0.25, 0.75, 0.9),-webkit-transform .167s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+        width: 100%;
+    }
+        
+}
+
+.headerClassName{
+    font-size: 14px;
+    font-weight: 500;
+}

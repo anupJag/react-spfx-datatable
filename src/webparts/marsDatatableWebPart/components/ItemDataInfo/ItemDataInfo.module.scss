@@ -1,0 +1,11 @@
+.ItemDataInfo{
+    font-size: inherit;
+    font-family: inherit;
+    display: none;
+}
+
+@media(min-width : 581px){
+    .ItemDataInfo{
+        display: block;
+    }
+}

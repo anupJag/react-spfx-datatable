@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "77ffb697-d706-4b50-934d-64e68beaa257",
+  "alias": "MarsDatatableWebPartWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Data table" },
+    "description": { "default": "Datatable WebPart allows you to show lists in a tabular format" },
+    "officeFabricIconFontName": "FormLibrary",
+    "properties": {
+      "itemsToBePulled" : 100
+    }
+  }]
+}

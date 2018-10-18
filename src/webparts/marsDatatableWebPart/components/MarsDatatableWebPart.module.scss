@@ -1,0 +1,12 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.marsDatatableWebPart {
+
+  margin: 0px 10px;
+
+  .mainHolder{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }  
+}

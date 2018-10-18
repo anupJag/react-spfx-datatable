@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.5.1",
+    "libraryName": "mars-webparts",
+    "libraryId": "cf39c96a-2540-4e05-b761-67ae08ff8b4f",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
